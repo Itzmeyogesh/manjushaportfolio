@@ -1,4 +1,5 @@
 import { ArrowUpCircle } from 'lucide-react';
+import technicalOneLogo from '../assets/technical-one.jpg'; // ✅ adjust path if needed
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -14,7 +15,7 @@ const Footer = () => {
 
         <div className="flex items-center gap-2">
           <img
-            src="/images/technical-one-logo.png" // ✅ Replace with your actual logo path
+            src={technicalOneLogo}
             alt="Technical One Logo"
             className="h-6 w-6 rounded-full border border-white/20"
           />

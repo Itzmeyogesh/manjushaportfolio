@@ -36,7 +36,7 @@ const sections = [
 const About = () => (
   <section
     id="about"
-    className="min-h-[90vh] py-16 sm:py-20 px-4 sm:px-8 md:px-14 bg-gradient-to-br from-black via-gray-900 to-black text-white flex items-center justify-center"
+    className="min-h-[45vh] py-16 sm:py-20 px-4 sm:px-8 md:px-14 bg-gradient-to-br from-black via-gray-900 to-black text-white flex items-center justify-center"
   >
     <div className="max-w-6xl w-full text-center space-y-12">
       {/* Heading */}
