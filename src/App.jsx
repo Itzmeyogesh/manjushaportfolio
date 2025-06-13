@@ -7,27 +7,28 @@ import Contact from './sections/Contact';
 import Footer from './components/Footer';
 
 const App = () => (
-  <div className="relative bg-transparent text-white flex flex-col">
+  <div className="relative bg-[#0f172a] text-white">
     <Sidebar />
 
-    <main className="flex flex-col space-y-24 sm:space-y-32">
-      <section className="w-full">
+    <main className="pt-20 pb-10 px-4 sm:px-6 lg:px-8 space-y-20">
+      {/* Each section wrapped with consistent spacing and responsive padding */}
+      <section className="max-w-7xl mx-auto">
         <Home />
       </section>
 
-      <section className="w-full">
+      <section className="max-w-7xl mx-auto">
         <About />
       </section>
 
-      <section className="w-full">
+      <section className="max-w-7xl mx-auto">
         <Skills />
       </section>
 
-      <section className="w-full">
+      <section className="max-w-7xl mx-auto">
         <Projects />
       </section>
 
-      <section className="w-full">
+      <section className="max-w-7xl mx-auto">
         <Contact />
       </section>
     </main>
